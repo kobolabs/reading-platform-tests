@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package
+ xmlns="http://www.idpf.org/2007/opf"
+ version="3.0"
+ xml:lang="en"
+ unique-identifier="unique-id"
+>
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<dc:title id="title">Test Content For Kadogawa Questionnaire</dc:title>
+<dc:creator id="creator01">Zheng (Jeff) Xu</dc:creator>
+<dc:publisher id="publisher">Rakuten Kobo Inc.</dc:publisher>
+<dc:language>en</dc:language>
+<dc:identifier id="unique-id">urn:uuid:aaaa-bbbb</dc:identifier>
+<meta property="dcterms:modified">2018-11-01T00:00:00Z</meta>
+
+</metadata>
+
+<manifest>
+
+<!-- navigation -->
+<item media-type="application/xhtml+xml" id="toc" href="navigation-documents.xhtml" properties="nav"/>
+
+<!-- style -->
+<item media-type="text/css" id="book-style"     href="style/book-style.css"/>
+
+<!-- image -->
+<item media-type="image/jpeg" id="cover"           href="image/cover.jpg" properties="cover-image"/>
+<item media-type="image/gif" id="starsolid"           href="image/starsolid.gif"/>
+<item media-type="image/jpeg" id="i-002"           href="image/i-002.jpg"/>
+
+<!-- xhtml -->
+<item media-type="application/xhtml+xml" id="p-cover"       href="xhtml/p-cover.xhtml"/>
+<item media-type="application/xhtml+xml" id="p-titlepage"   href="xhtml/p-titlepage.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-pre"         href="xhtml/html/html-pre.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-table"         href="xhtml/html/rendering/non-replaced-elements/tables/table.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-ul"         href="xhtml/html/html-ul.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-ol"         href="xhtml/html/html-ol.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-dl-dt-dd"         href="xhtml/html/html-dl-dt-dd.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-blockquote"         href="xhtml/html/html-blockquote.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-q"         href="xhtml/html/html-q.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-data-attributes"         href="xhtml/html/html-data-attributes.xhtml"/>
+
+<item media-type="application/xhtml+xml" id="CSS2-display-table"         href="xhtml/css/CSS2/display-table.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-display-list-item"         href="xhtml/css/CSS2/display-list-item.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-tables-table-layout"         href="xhtml/css/CSS2/tables/table-layout.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-tables-caption-side"         href="xhtml/css/CSS2/tables/caption-side.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-tables-border-collapse"         href="xhtml/css/CSS2/tables/border-collapse.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-tables-border-spacing"         href="xhtml/css/CSS2/tables/border-spacing.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-tables-empty-cells"         href="xhtml/css/CSS2/tables/empty-cells.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-list-style"         href="xhtml/css/CSS2/list-style.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-list-style-type"         href="xhtml/css/CSS2/list-style-type.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-list-style-image"         href="xhtml/css/CSS2/list-style-image.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-list-style-position"         href="xhtml/css/CSS2/list-style-position.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-counter-increment"         href="xhtml/css/CSS2/counter-increment.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-background-color-body"         href="xhtml/css/CSS2/background-color-body.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-background-image-1"         href="xhtml/css/CSS2/background-image-1.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-background-image-2"         href="xhtml/css/CSS2/background-image-2.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-background-image-3"         href="xhtml/css/CSS2/background-image-3.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-background-image-4"         href="xhtml/css/CSS2/background-image-4.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-background-image-5"         href="xhtml/css/CSS2/background-image-5.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-background-image-6"         href="xhtml/css/CSS2/background-image-6.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-float-1"         href="xhtml/css/CSS2/float-1.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-float-2"         href="xhtml/css/CSS2/float-2.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-float-3"         href="xhtml/css/CSS2/float-3.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-float-4"         href="xhtml/css/CSS2/float-4.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-position-1"         href="xhtml/css/CSS2/position-1.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-position-2"         href="xhtml/css/CSS2/position-2.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-border-1"         href="xhtml/css/CSS2/border-1.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-border-2"         href="xhtml/css/CSS2/border-2.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-border-3"         href="xhtml/css/CSS2/border-3.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-content"         href="xhtml/css/CSS2/content.xhtml"/>
+<item media-type="application/xhtml+xml" id="CSS2-content-1"         href="xhtml/css/CSS2/content-1.xhtml"/>
+
+<item media-type="application/xhtml+xml" id="css-text-white-space-pre-wrap"         href="xhtml/css/css-text/white-space-pre-wrap.xhtml"/>
+<item media-type="application/xhtml+xml" id="css-images-object-fit-1"         href="xhtml/css/css-images/object-fit-1.xhtml"/>
+<item media-type="application/xhtml+xml" id="css-flexbox-flex-1"         href="xhtml/css/css-flexbox/flex-1.xhtml"/>
+<item media-type="application/xhtml+xml" id="css-grid-grid-1"         href="xhtml/css/css-grid/grid-1.xhtml"/>
+<item media-type="application/xhtml+xml" id="css-values-calc"         href="xhtml/css/css-values/calc.xhtml"/>
+<item media-type="application/xhtml+xml" id="css-variables-variable"         href="xhtml/css/css-variables/variable.xhtml"/>
+
+<item media-type="application/xhtml+xml" id="svg-with-image"         href="xhtml/svg/svg-with-image.xhtml" properties="svg"/>
+
+
+</manifest>
+
+<spine>
+
+<itemref linear="yes" idref="p-cover"      properties="page-spread-left"/>
+<itemref linear="yes" idref="p-titlepage"  properties="page-spread-left"/>
+<itemref linear="yes" idref="html-pre"        properties="page-spread-left"/>
+<itemref linear="yes" idref="css-text-white-space-pre-wrap"        properties="page-spread-left"/>
+<itemref linear="yes" idref="html-table"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-display-table"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-tables-table-layout"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-tables-caption-side"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-tables-border-collapse"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-tables-border-spacing"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-tables-empty-cells"        properties="page-spread-left"/>
+<itemref linear="yes" idref="html-ul"        properties="page-spread-left"/>
+<itemref linear="yes" idref="html-ol"        properties="page-spread-left"/>
+<itemref linear="yes" idref="html-dl-dt-dd"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-display-list-item"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-list-style"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-list-style-type"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-list-style-image"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-list-style-position"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-counter-increment"        properties="page-spread-left"/>
+<itemref linear="yes" idref="html-blockquote"        properties="page-spread-left"/>
+<itemref linear="yes" idref="html-q"        properties="page-spread-left"/>
+<itemref linear="yes" idref="svg-with-image"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-background-color-body"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-background-image-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-background-image-2"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-background-image-3"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-background-image-4"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-background-image-5"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-background-image-6"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-float-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-float-2"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-float-3"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-float-4"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-position-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-position-2"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-border-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-border-2"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-border-3"        properties="page-spread-left"/>
+<itemref linear="yes" idref="css-images-object-fit-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="css-flexbox-flex-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="css-grid-grid-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="html-data-attributes"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-content"        properties="page-spread-left"/>
+<itemref linear="yes" idref="CSS2-content-1"        properties="page-spread-left"/>
+<itemref linear="yes" idref="css-values-calc"        properties="page-spread-left"/>
+<itemref linear="yes" idref="css-variables-variable"        properties="page-spread-left"/>
+
+</spine>
+
+</package>

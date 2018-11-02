@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:epub="http://www.idpf.org/2007/ops"
+ xml:lang="en"
+>
+<head>
+<meta charset="UTF-8"/>
+<title>CSS Test</title>
+<style type="text/css">
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+#flex-container > .flex-item {
+  flex: 1;
+  border: 1px solid black;
+}
+
+#flex-container > .raw-item {
+  width: 5em;
+  border: 1px solid red;
+}
+
+</style>
+</head>
+<body>
+  <h1>Test of Flexbox. Should can see two box side by side.</h1>
+  <div id="flex-container">
+    <div class="flex-item" id="flex">Flex box</div>
+    <div class="raw-item" id="raw">Raw box</div>
+  </div>
+</body>
+</html>
+

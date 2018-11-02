@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:epub="http://www.idpf.org/2007/ops"
+ xml:lang="en"
+>
+<head>
+<meta charset="UTF-8"/>
+<title>CSS Test</title>
+<style type="text/css">
+h2 {
+  font-family: Courier New, monospace;
+  font-size: 1em;
+  margin: 1em 0 0.3em;
+}
+
+div {
+  height: 940px;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+</style>
+</head>
+<body>
+  <h1>Test of object-fit for image. Image should fit available space of black rectangle.</h1>
+  <div>
+    <h2>object-fit: contain</h2>
+    <img src="../../../image/starsolid.gif" class="contain"/>
+
+  </div>
+</body>
+</html>
+

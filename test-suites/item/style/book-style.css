@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.fit {
+  display:            inline-block;
+  page-break-inside:  avoid;
+  max-height:         100%;
+  max-width:          100%;
+}
+
+.border-red {
+  border: solid 2px red;
+}

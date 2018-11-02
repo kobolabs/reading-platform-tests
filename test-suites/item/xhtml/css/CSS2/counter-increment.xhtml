@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:epub="http://www.idpf.org/2007/ops"
+ xml:lang="en"
+>
+<head>
+<meta charset="UTF-8"/>
+<title>CSS Test</title>
+<style type="text/css">
+h1 {
+  counter-increment: chapter;
+  /* Increases the value of the chapter and page counters by 1,
+     and the section counter by 2 */
+}
+
+.test:before {
+  content: counter(chapter);
+}
+
+.reset {
+  counter-reset: chapter;
+}
+</style>
+</head>
+<body>
+  <h1>Test of counter-increment, counter-reset and counter()</h1>
+  <h1 class="test"> should display 2 at left</h1>
+  <h1 class="test"> should display 3 at left</h1>
+  <h1 class="reset test"> should reset to 1</h1>
+  <h1 class="test"> should display 2 at left</h1>
+</body>
+</html>
+

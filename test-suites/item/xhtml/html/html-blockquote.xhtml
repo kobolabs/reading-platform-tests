@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:epub="http://www.idpf.org/2007/ops"
+ xml:lang="en"
+>
+<head>
+<meta charset="UTF-8"/>
+<title>CSS Test</title>
+<style type="text/css">
+blockquote {
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p {
+    padding: 15px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+</style>
+</head>
+<body>
+  <h1>Test of blockquote.</h1>
+  <blockquote cite="https://www.huxley.net/bnw/four.html">
+	  <p>Words can be like X-rays, if you use them properly ? they'll go through anything. You read and you're pierced.</p>
+  </blockquote>
+  <cite>- Aldous Huxley, Brave New World</cite>
+</body>
+</html>
+

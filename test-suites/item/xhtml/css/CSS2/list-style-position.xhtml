@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:epub="http://www.idpf.org/2007/ops"
+ xml:lang="en"
+>
+<head>
+<meta charset="UTF-8"/>
+<title>CSS Test</title>
+<style type="text/css">
+.inside {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.outside {
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+.inside-img {
+  list-style-position: inside;
+  list-style-image: url("../../../image/starsolid.gif");
+}
+</style>
+</head>
+<body>
+  <h1>Test of list-style-position</h1>
+List 1: inside
+<ul class="inside">
+  <li>List Item 1-1</li>
+  <li>List Item 1-2</li>
+  <li>List Item 1-3</li>
+  <li>List Item 1-4</li>
+</ul>
+<br/>
+List 2: outside
+<ul class="outside">
+  <li>List Item 2-1</li>
+  <li>List Item 2-2</li>
+  <li>List Item 2-3</li>
+  <li>List Item 2-4</li>
+</ul>
+<br/>
+List 3: image inside
+<ul class="inside-img">
+  <li>List Item 3-1</li>
+  <li>List Item 3-2</li>
+  <li>List Item 3-3</li>
+  <li>List Item 3-4</li>
+</ul>
+</body>
+</html>
+

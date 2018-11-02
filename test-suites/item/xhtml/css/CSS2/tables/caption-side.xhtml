@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:epub="http://www.idpf.org/2007/ops"
+ xml:lang="en"
+>
+<head>
+<meta charset="UTF-8"/>
+<title>CSS Test</title>
+<style type="text/css">
+.top caption {
+  caption-side: top;
+}
+
+.bottom caption {
+  caption-side: bottom;
+}
+
+table {
+  border: 1px solid red;
+}
+
+td {
+  border: 1px solid blue;
+}
+</style>
+</head>
+<body>
+  <h1>Test of caption-side of table. First table should can see Caption at above and 2nd below table</h1>
+<table class="top">
+  <caption>Caption ABOVE the table</caption>
+  <tr>
+    <td>Left Cell of Row 1</td>
+    <td>Right Cell of Row 1</td>
+  </tr>
+  <tr>
+    <td>Left Cell of Row 2</td>
+    <td>Right Cell of Row 2</td>
+  </tr>
+</table>
+
+<br/>
+
+<table class="bottom">
+  <caption>Caption BELOW the table</caption>
+  <tr>
+    <td>Left Cell of Row 1</td>
+    <td>Right Cell of Row 1</td>
+  </tr>
+  <tr>
+    <td>Left Cell of Row 2</td>
+    <td>Right Cell of Row 2</td>
+  </tr>
+</table>
+</body>
+</html>
+
