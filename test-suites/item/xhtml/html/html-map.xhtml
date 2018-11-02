@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:epub="http://www.idpf.org/2007/ops"
+ xml:lang="en"
+>
+<head>
+<meta charset="UTF-8"/>
+<title>HTML Test</title>
+<style type="text/css">
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 232px;
+}
+
+</style>
+</head>
+<body>
+  <h1>Test of map. Should can click inside image and navigate to external link.</h1>
+  <map name="infographic">
+    <area shape="poly" coords="130,147,200,107,254,219,130,228"
+          href="https://developer.mozilla.org/docs/Web/HTML"
+          target="_blank" alt="HTML" />
+    <area shape="poly" coords="130,147,130,228,6,219,59,107"
+          href="https://developer.mozilla.org/docs/Web/CSS"
+          target="_blank" alt="CSS" />
+    <area shape="poly" coords="130,147,200,107,130,4,59,107"
+          href="https://developer.mozilla.org/docs/Web/JavaScript"
+          target="_blank" alt="JavaScript" />
+  </map>
+  <img usemap="#infographic" src="../../image/mdn-info2.png" alt="MDN infographic" />
+</body>
+</html>
+

@@ -29,6 +29,7 @@
 <item media-type="image/jpeg" id="cover"           href="image/cover.jpg" properties="cover-image"/>
 <item media-type="image/gif" id="starsolid"           href="image/starsolid.gif"/>
 <item media-type="image/jpeg" id="i-002"           href="image/i-002.jpg"/>
+<item media-type="image/png" id="mdn-info2"           href="image/mdn-info2.png"/>
 
 <!-- xhtml -->
 <item media-type="application/xhtml+xml" id="p-cover"       href="xhtml/p-cover.xhtml"/>
@@ -41,6 +42,7 @@
 <item media-type="application/xhtml+xml" id="html-blockquote"         href="xhtml/html/html-blockquote.xhtml"/>
 <item media-type="application/xhtml+xml" id="html-q"         href="xhtml/html/html-q.xhtml"/>
 <item media-type="application/xhtml+xml" id="html-data-attributes"         href="xhtml/html/html-data-attributes.xhtml"/>
+<item media-type="application/xhtml+xml" id="html-map"         href="xhtml/html/html-map.xhtml"/>
 
 <item media-type="application/xhtml+xml" id="CSS2-display-table"         href="xhtml/css/CSS2/display-table.xhtml"/>
 <item media-type="application/xhtml+xml" id="CSS2-display-list-item"         href="xhtml/css/CSS2/display-list-item.xhtml"/>
@@ -89,6 +91,7 @@
 
 <itemref linear="yes" idref="p-cover"      properties="page-spread-left"/>
 <itemref linear="yes" idref="p-titlepage"  properties="page-spread-left"/>
+<itemref linear="yes" idref="html-map"        properties="page-spread-left"/>
 <itemref linear="yes" idref="html-pre"        properties="page-spread-left"/>
 <itemref linear="yes" idref="css-text-white-space-pre-wrap"        properties="page-spread-left"/>
 <itemref linear="yes" idref="html-table"        properties="page-spread-left"/>
